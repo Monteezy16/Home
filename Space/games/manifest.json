@@ -1,0 +1,9 @@
+[
+  { "id": "symbol-cipher", "name": "Symbol Cipher", "blurb": "Decode the whispering glyphs.", "path": "games/symbol-cipher.js" },
+  { "id": "spooky-snake", "name": "Spooky Snake", "blurb": "A shadow serpent hunts runes.", "path": "games/spooky-snake.js" },
+  { "id": "lock-sequence", "name": "Lock Sequence", "blurb": "Find the pattern to open.", "path": "games/lock-sequence.js" },
+  { "id": "pattern-recall", "name": "Pattern Recall", "blurb": "Remember, then notice the rule.", "path": "games/pattern-recall.js" },
+  { "id": "shadow-riddle", "name": "Shadow Riddle", "blurb": "Answer the quiet question.", "path": "games/shadow-riddle.js" },
+  { "id": "pulse-grid", "name": "Pulse Grid", "blurb": "A denser recall of positions.", "path": "games/pulse-grid.js" },
+  { "id": "reverse-recall", "name": "Reverse Recall", "blurb": "Echo it back—backwards.", "path": "games/reverse-recall.js" }
+]
