@@ -1,0 +1,18 @@
+# netlify.toml (at repo root)
+
+[build]
+  # Run the build from the Space subfolder
+  base = "Space"
+  # No build step (plain HTML/CSS/JS)
+  command = ""
+  # Publish the Space folder (where index.html lives)
+  publish = "Space"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+# SPA-friendly: serve index.html for all routes
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

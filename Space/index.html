@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -19,7 +19,13 @@
     <div class="app" id="app">
       <header>
         <div class="brand">
-          <canvas id="moonSigil" class="sigil" width="64" height="64" aria-hidden="true"></canvas>
+          <canvas
+            id="moonSigil"
+            class="sigil"
+            width="64"
+            height="64"
+            aria-hidden="true"
+          ></canvas>
           <div>
             <h1>The Quiet Atelier</h1>
             <div class="subtitle">A desk for late-night thinking.</div>
@@ -27,7 +33,9 @@
         </div>
         <div class="actions">
           <button class="btn ghost" id="homeBtn" hidden>Home</button>
-          <button class="btn ghost" id="beatsToggle" aria-pressed="false">Play</button>
+          <button class="btn ghost" id="beatsToggle" aria-pressed="false">
+            Play
+          </button>
         </div>
       </header>
 
@@ -43,15 +51,17 @@
         <section id="game" class="game" role="region" aria-label="Game" hidden>
           <div class="stage">
             <header>
-              <div class="title" id="gameTitle">—</div>
+              <div class="title" id="gameTitle">-</div>
             </header>
-            <div id="gameHost" class="game-host">Choose a puzzle door to enter.</div>
+            <div id="gameHost" class="game-host">
+              Choose a puzzle door to enter.
+            </div>
           </div>
         </section>
       </main>
     </div>
 
-    
+    <button class="btn back" id="backFloating" hidden>Back</button>
 
     <script type="module" src="scripts/app.js"></script>
   </body>
